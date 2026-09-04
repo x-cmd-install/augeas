@@ -7,7 +7,7 @@ about:
   head: 22d715e
   archived: false
   latestVersion: release-1.14.1
-  collectedAt: 2026-09-04T19:23:46Z
+  collectedAt: 2026-09-04T21:09:12Z
 timeline:
   created: 2008-10-03
   lastCommit: 2026-04-08
@@ -86,6 +86,104 @@ total:
   openIssue: 165
   commit: 3119
 ---
+path: /home/runner/.x-repo/github.com/hercules-team/augeas
+collectedAt: 2026-09-04T21:09:13Z
+loc:
+  C:
+    code: 26409
+    comments: 3342
+    blanks: 4401
+    files: 35
+  Sh:
+    code: 1637
+    comments: 185
+    blanks: 353
+    files: 52
+  CHeader:
+    code: 1336
+    comments: 1892
+    blanks: 442
+    files: 16
+  Bitbake:
+    code: 914
+    comments: 5705
+    blanks: 686
+    files: 34
+  Tex:
+    code: 633
+    comments: 145
+    blanks: 126
+    files: 3
+  Css:
+    code: 595
+    comments: 38
+    blanks: 149
+    files: 1
+  Happy:
+    code: 558
+    comments: 0
+    blanks: 86
+    files: 1
+  Automake:
+    code: 450
+    comments: 8
+    blanks: 82
+    files: 7
+  Autoconf:
+    code: 215
+    comments: 6
+    blanks: 83
+    files: 2
+  Ini:
+    code: 176
+    comments: 809
+    blanks: 236
+    files: 1
+  M4:
+    code: 107
+    comments: 26
+    blanks: 15
+    files: 1
+  VimScript:
+    code: 101
+    comments: 7
+    blanks: 1
+    files: 2
+  Perl:
+    code: 42
+    comments: 41
+    blanks: 20
+    files: 1
+  Bash:
+    code: 40
+    comments: 1
+    blanks: 6
+    files: 1
+  Dockerfile:
+    code: 20
+    comments: 0
+    blanks: 2
+    files: 1
+  ForgeConfig:
+    code: 0
+    comments: 1
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 135
+    blanks: 42
+    files: 3
+  Text:
+    code: 0
+    comments: 1515
+    blanks: 181
+    files: 13
+total:
+  code: 33237
+  comments: 13856
+  blanks: 6911
+  files: 175
 ---
 date: "2026-08-24"
 repo:
