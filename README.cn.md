@@ -4,7 +4,7 @@
 
 A configuration editing tool and API
 
-![augeas](https://repo.x-cmd.io/augeas.svg)
+![augeas](https://repo.x-cmd.io/augeas.svg?lang=zh)
 
 ## 安装
 
@@ -23,15 +23,20 @@ x install augeas
 - **最新版本**: `release-1.14.1` (2023-07-15)
 - **最近提交**: 2026-04-08
 - **Release 含资产**: 1 个
-- **发布时间**: 2023-07-15T01:08:01Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [augeas-1.14.1.tar.gz](https://github.com/hercules-team/augeas/releases/download/release-1.14.1/augeas-1.14.1.tar.gz) | 2.5 MiB | `native/unknown` |
 
 ## 流行度
 
-- **Star**: 529 · **Fork**: 214 · **开放 issue**: 379 · **贡献者**: 184
+- **Star**: 529 · **Fork**: 213 · **开放 issue**: 379 · **贡献者**: 184
 
 ## 累计统计
 
-- **发布数**: 12 · **已合并 PR**: 273 · **开放 PR**: 41 · **已关闭 issue**: 214 · **开放 issue**: 165 · **提交数**: 3119
+- **发布数**: 12 · **已合并 PR**: 273 · **开放 PR**: 40 · **已关闭 issue**: 214 · **开放 issue**: 165 · **提交数**: 3119
 
 ## 最近活动
 
@@ -72,4 +77,4 @@ augeas 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T03:22:51Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T15:52:19Z._

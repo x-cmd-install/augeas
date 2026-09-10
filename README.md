@@ -23,15 +23,20 @@ x install augeas
 - **Latest**: `release-1.14.1` (2023-07-15)
 - **Last commit**: 2026-04-08
 - **Assets in release**: 1
-- **Published**: 2023-07-15T01:08:01Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [augeas-1.14.1.tar.gz](https://github.com/hercules-team/augeas/releases/download/release-1.14.1/augeas-1.14.1.tar.gz) | 2.5 MiB | `native/unknown` |
 
 ## Popularity
 
-- **Stars**: 529 · **Forks**: 214 · **Open issues**: 379 · **Contributors**: 184
+- **Stars**: 529 · **Forks**: 213 · **Open issues**: 379 · **Contributors**: 184
 
 ## Totals (cumulative)
 
-- **Releases**: 12 · **Merged PRs**: 273 · **Open PRs**: 41 · **Closed issues**: 214 · **Open issues**: 165 · **Commits**: 3119
+- **Releases**: 12 · **Merged PRs**: 273 · **Open PRs**: 40 · **Closed issues**: 214 · **Open issues**: 165 · **Commits**: 3119
 
 ## Recent activity
 
@@ -68,8 +73,8 @@ Lowest-scoring checks:
 Install metadata for augeas lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `augeas` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/augeas.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/augeas.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T03:22:51Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T15:52:18Z._
