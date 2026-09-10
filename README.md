@@ -12,41 +12,7 @@ A configuration editing tool and API
 x install augeas
 ```
 
-## Source
-
-- **Upstream**: <https://github.com/hercules-team/augeas>
-- **Homepage**: <http://augeas.net/>
-- **License**: LGPL-2.1
-
-## Release
-
-- **Latest**: `release-1.14.1` (2023-07-15)
-- **Last commit**: 2026-04-08
-- **Assets in release**: 1
-
-## Release assets
-
-| Asset | Size | Target |
-|-------|-----:|--------|
-| [augeas-1.14.1.tar.gz](https://github.com/hercules-team/augeas/releases/download/release-1.14.1/augeas-1.14.1.tar.gz) | 2.5 MiB | `native/unknown` |
-
-## Popularity
-
-- **Stars**: 529 · **Forks**: 213 · **Open issues**: 379 · **Contributors**: 184
-
-## Totals (cumulative)
-
-- **Releases**: 12 · **Merged PRs**: 273 · **Open PRs**: 40 · **Closed issues**: 214 · **Open issues**: 165 · **Commits**: 3119
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 9 | 0 | 0 | 0 |
-| 90d | 2026-06-12 | 0 | 0 | 10 | 0 | 0 | 0 |
-| 360d | 2025-09-15 | 0 | 2 | 21 | 1 | 6 | 6 |
-
-## Code size
+## Code insight
 
 Total: **33,233** lines of code across **140** files in the top 5 languages.
 
@@ -68,6 +34,62 @@ Lowest-scoring checks:
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
+## Source
+
+- **Upstream**: <https://github.com/hercules-team/augeas>
+- **Homepage**: <http://augeas.net/>
+- **License**: LGPL-2.1
+
+## Release
+
+- **Latest**: `release-1.14.1` (2023-07-15)
+- **Last commit**: 2026-04-08
+- **Assets in release**: 1
+
+## Popularity
+
+- **Stars**: 529 · **Forks**: 213 · **Open issues**: 379 · **Contributors**: 184
+
+## Totals (cumulative)
+
+- **Releases**: 12 · **Merged PRs**: 273 · **Open PRs**: 40 · **Closed issues**: 214 · **Open issues**: 165 · **Commits**: 3119
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 0 | 9 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 9 | 0 | 0 | 0 |
+| 90d | 2026-06-12 | 0 | 0 | 10 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 2 | 14 | 0 | 0 | 4 |
+| 360d | 2025-09-15 | 0 | 2 | 21 | 1 | 6 | 6 |
+| last720d | 2024-09-20 | 0 | 7 | 25 | 3 | 16 | 8 |
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [augeas-1.14.1.tar.gz](https://github.com/hercules-team/augeas/releases/download/release-1.14.1/augeas-1.14.1.tar.gz) | 2.5 MiB | `native/unknown` |
+
+## Distribution status
+
+Reported by **220** distros on [repology.org](https://repology.org/project/augeas). **88** are ✅ on the latest upstream release, **109** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.14.1` | ✅ latest |
+| Debian 14 | `1.14.1` | ✅ latest |
+| Debian 13 | `1.14.1` | ✅ latest |
+| Ubuntu 26.04 LTS | `1.14.1` | ✅ latest |
+| Ubuntu 24.04 LTS | `1.14.1` | ✅ latest |
+| Arch | `1.14.1` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
+| Fedora rawhide | `1.14.2` | ignored |
+| Nix unstable | `1.14.1` | ✅ latest |
+| Void | `1.12.0` | ⚠️ outdated |
+| Alpine edge | `1.14.1` | ✅ latest |
+| openSUSE Tumbleweed | `1.14.1` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for augeas lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `augeas` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -77,4 +99,4 @@ Install metadata for augeas lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T15:52:18Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:18:11Z._
