@@ -7,7 +7,7 @@ about:
   latestVersion: "release-1.14.1"
   latestRelease: "release-1.14.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T03:22:46Z
+  collectedAt: 2026-09-10T15:52:13Z
 timeline:
   created: 2008-10-03
   lastCommit: 2026-04-08
@@ -17,7 +17,7 @@ timeline:
 popularity:
   star: 529
   watcher: 26
-  fork: 214
+  fork: 213
   release: 12
   contributor: 184
   pullRequest: 516
@@ -83,13 +83,13 @@ recent:
 total:
   release: 12
   mergedPR: 273
-  openPR: 41
+  openPR: 40
   closedIssue: 214
   openIssue: 165
   commit: 3119
 ---
 path: /home/runner/.x-repo/github.com/hercules-team/augeas
-collectedAt: 2026-09-10T03:22:47Z
+collectedAt: 2026-09-10T15:52:15Z
 loc:
   C:
     code: 26409
