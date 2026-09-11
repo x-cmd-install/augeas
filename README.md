@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `release-1.14.1` (2023-07-15)
-- **Last commit**: 2026-04-08
+- **Last commit**: 2026-09-11
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 529 · **Forks**: 213 · **Open issues**: 379 · **Contributors**: 184
+- **Stars**: 529 · **Forks**: 213 · **Open issues**: 379 · **Contributors**: 185
 
 ## Totals (cumulative)
 
-- **Releases**: 12 · **Merged PRs**: 273 · **Open PRs**: 41 · **Closed issues**: 214 · **Open issues**: 165 · **Commits**: 3119
+- **Releases**: 12 · **Merged PRs**: 274 · **Open PRs**: 40 · **Closed issues**: 214 · **Open issues**: 165 · **Commits**: 3120
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 0 | 0 | 10 | 0 | 0 | 0 |
-| last60d | 2026-07-13 | 0 | 0 | 10 | 0 | 0 | 0 |
-| 90d | 2026-06-13 | 0 | 0 | 11 | 0 | 0 | 0 |
-| last180d | 2026-03-15 | 0 | 2 | 15 | 0 | 0 | 4 |
-| 360d | 2025-09-16 | 0 | 2 | 22 | 1 | 6 | 6 |
-| last720d | 2024-09-21 | 0 | 7 | 26 | 3 | 16 | 8 |
+| 30d | 2026-08-12 | 0 | 1 | 9 | 0 | 0 | 1 |
+| last60d | 2026-07-13 | 0 | 1 | 9 | 0 | 0 | 1 |
+| 90d | 2026-06-13 | 0 | 1 | 10 | 0 | 0 | 1 |
+| last180d | 2026-03-15 | 0 | 3 | 14 | 0 | 0 | 5 |
+| 360d | 2025-09-16 | 0 | 3 | 21 | 1 | 6 | 7 |
+| last720d | 2024-09-21 | 0 | 8 | 25 | 3 | 16 | 9 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for augeas lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T03:18:54Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T20:48:19Z._
