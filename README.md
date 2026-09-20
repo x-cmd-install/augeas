@@ -4,7 +4,7 @@
 
 A configuration editing tool and API
 
-![augeas](https://repo.x-cmd.io/augeas.svg)
+[![x-cmd/install — augeas Code Quality Monitoring Repo Card](https://repo.x-cmd.io/augeas.svg)](https://x-cmd.com/install/augeas)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 529 · **Forks**: 213 · **Open issues**: 379 · **Contributors**: 185
+- **Stars**: 531 · **Forks**: 213 · **Open issues**: 379 · **Contributors**: 185
 
 ## Totals (cumulative)
 
-- **Releases**: 12 · **Merged PRs**: 274 · **Open PRs**: 41 · **Closed issues**: 214 · **Open issues**: 165 · **Commits**: 3120
+- **Releases**: 12 · **Merged PRs**: 274 · **Open PRs**: 42 · **Closed issues**: 214 · **Open issues**: 165 · **Commits**: 3120
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 3 | 0 | 0 | 1 |
-| last60d | 2026-07-20 | 0 | 1 | 10 | 0 | 0 | 1 |
-| 90d | 2026-06-20 | 0 | 1 | 10 | 0 | 0 | 1 |
-| last180d | 2026-03-22 | 0 | 3 | 15 | 0 | 0 | 5 |
-| 360d | 2025-09-23 | 0 | 3 | 22 | 1 | 6 | 7 |
-| last720d | 2024-09-28 | 0 | 8 | 26 | 3 | 16 | 9 |
+| 30d | 2026-08-21 | 0 | 0 | 4 | 0 | 0 | 1 |
+| last60d | 2026-07-22 | 0 | 1 | 11 | 0 | 0 | 1 |
+| 90d | 2026-06-22 | 0 | 1 | 11 | 0 | 0 | 1 |
+| last180d | 2026-03-24 | 0 | 3 | 16 | 0 | 0 | 5 |
+| 360d | 2025-09-25 | 0 | 3 | 23 | 1 | 6 | 7 |
+| last720d | 2024-09-30 | 0 | 8 | 27 | 3 | 16 | 9 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for augeas lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T03:30:11Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T03:42:56Z._
