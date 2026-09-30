@@ -14,7 +14,7 @@ x install augeas
 
 ## Code insight
 
-Total: **33,268** lines of code across **140** files in the top 5 languages.
+Total: **33,271** lines of code across **140** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -42,9 +42,9 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `release-1.14.1` (2023-07-15)
-- **Last commit**: 2026-09-26
-- **Assets in release**: 1
+- **Latest**: `release-1.15.0` (2026-09-29)
+- **Last commit**: 2026-09-29
+- **Assets in release**: 2
 
 ## Popularity
 
@@ -52,24 +52,25 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 12 · **Merged PRs**: 285 · **Open PRs**: 34 · **Closed issues**: 214 · **Open issues**: 165 · **Commits**: 3140
+- **Releases**: 13 · **Merged PRs**: 286 · **Open PRs**: 33 · **Closed issues**: 214 · **Open issues**: 165 · **Commits**: 3142
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 0 | 5 | 2 | 0 | 0 | 19 |
-| last60d | 2026-07-31 | 0 | 8 | 8 | 0 | 0 | 20 |
-| 90d | 2026-07-01 | 0 | 8 | 8 | 0 | 0 | 20 |
-| last180d | 2026-04-02 | 0 | 9 | 11 | 0 | 0 | 24 |
-| 360d | 2025-10-04 | 0 | 12 | 17 | 1 | 6 | 27 |
-| last720d | 2024-10-09 | 0 | 19 | 19 | 3 | 16 | 29 |
+| 30d | 2026-08-31 | 1 | 6 | 1 | 0 | 0 | 21 |
+| last60d | 2026-08-01 | 1 | 9 | 7 | 0 | 0 | 22 |
+| 90d | 2026-07-02 | 1 | 9 | 7 | 0 | 0 | 22 |
+| last180d | 2026-04-03 | 1 | 10 | 10 | 0 | 0 | 26 |
+| 360d | 2025-10-05 | 1 | 13 | 16 | 1 | 6 | 29 |
+| last720d | 2024-10-10 | 1 | 20 | 18 | 3 | 16 | 31 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [augeas-1.14.1.tar.gz](https://github.com/hercules-team/augeas/releases/download/release-1.14.1/augeas-1.14.1.tar.gz) | 2.5 MiB | `native/unknown` |
+| [augeas-1.15.0.tar.gz](https://github.com/hercules-team/augeas/releases/download/release-1.15.0/augeas-1.15.0.tar.gz) | 2.5 MiB | `native/unknown` |
+| [augeas-1.15.0.tar.gz.sig](https://github.com/hercules-team/augeas/releases/download/release-1.15.0/augeas-1.15.0.tar.gz.sig) | 119 B | `other` |
 
 ## Improve this data
 
@@ -80,4 +81,4 @@ Install metadata for augeas lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T04:33:55Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T04:17:10Z._
