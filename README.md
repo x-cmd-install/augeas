@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 13 · **Merged PRs**: 286 · **Open PRs**: 33 · **Closed issues**: 214 · **Open issues**: 165 · **Commits**: 3142
+- **Releases**: 13 · **Merged PRs**: 286 · **Open PRs**: 33 · **Closed issues**: 215 · **Open issues**: 164 · **Commits**: 3142
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 1 | 6 | 1 | 0 | 0 | 21 |
-| last60d | 2026-08-01 | 1 | 9 | 7 | 0 | 0 | 22 |
-| 90d | 2026-07-02 | 1 | 9 | 7 | 0 | 0 | 22 |
-| last180d | 2026-04-03 | 1 | 10 | 10 | 0 | 0 | 26 |
-| 360d | 2025-10-05 | 1 | 13 | 16 | 1 | 6 | 29 |
-| last720d | 2024-10-10 | 1 | 20 | 18 | 3 | 16 | 31 |
+| 30d | 2026-09-01 | 1 | 6 | 1 | 0 | 0 | 21 |
+| last60d | 2026-08-02 | 1 | 9 | 7 | 0 | 0 | 22 |
+| 90d | 2026-07-03 | 1 | 9 | 7 | 0 | 0 | 22 |
+| last180d | 2026-04-04 | 1 | 10 | 10 | 0 | 0 | 26 |
+| 360d | 2025-10-06 | 1 | 13 | 16 | 2 | 5 | 29 |
+| last720d | 2024-10-11 | 1 | 20 | 18 | 4 | 15 | 31 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for augeas lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T04:17:10Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T04:29:07Z._
