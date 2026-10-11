@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-10 | 1 | 5 | 2 | 0 | 0 | 21 |
-| last60d | 2026-08-11 | 1 | 9 | 8 | 0 | 0 | 22 |
-| 90d | 2026-07-12 | 1 | 9 | 8 | 0 | 0 | 22 |
-| last180d | 2026-04-13 | 1 | 10 | 11 | 0 | 0 | 23 |
-| 360d | 2025-10-15 | 1 | 13 | 16 | 2 | 5 | 29 |
-| last720d | 2024-10-20 | 1 | 20 | 19 | 4 | 13 | 31 |
+| 30d | 2026-09-11 | 1 | 5 | 2 | 0 | 0 | 19 |
+| last60d | 2026-08-12 | 1 | 9 | 8 | 0 | 0 | 21 |
+| 90d | 2026-07-13 | 1 | 9 | 8 | 0 | 0 | 22 |
+| last180d | 2026-04-14 | 1 | 10 | 11 | 0 | 0 | 23 |
+| 360d | 2025-10-16 | 1 | 13 | 16 | 2 | 5 | 29 |
+| last720d | 2024-10-21 | 1 | 20 | 19 | 4 | 13 | 31 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for augeas lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261010.yml` · 2026-10-10T04:37:10Z._
+_Snapshot: `data/card/261011.yml` · 2026-10-11T04:21:34Z._
