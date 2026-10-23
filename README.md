@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 2 | 6 | 0 | 0 | 9 |
-| last60d | 2026-08-23 | 1 | 6 | 7 | 0 | 0 | 21 |
-| 90d | 2026-07-24 | 1 | 9 | 12 | 0 | 0 | 22 |
-| last180d | 2026-04-25 | 1 | 10 | 14 | 0 | 0 | 23 |
-| 360d | 2025-10-27 | 1 | 13 | 20 | 2 | 5 | 29 |
-| last720d | 2024-11-01 | 1 | 20 | 23 | 4 | 12 | 31 |
+| 30d | 2026-09-23 | 1 | 2 | 6 | 0 | 0 | 9 |
+| last60d | 2026-08-24 | 1 | 6 | 7 | 0 | 0 | 21 |
+| 90d | 2026-07-25 | 1 | 9 | 12 | 0 | 0 | 22 |
+| last180d | 2026-04-26 | 1 | 10 | 14 | 0 | 0 | 23 |
+| 360d | 2025-10-28 | 1 | 13 | 20 | 2 | 5 | 29 |
+| last720d | 2024-11-02 | 1 | 20 | 23 | 4 | 12 | 31 |
 
 ## Release assets
 
@@ -71,6 +71,25 @@ Lowest-scoring checks:
 |-------|-----:|--------|
 | [augeas-1.15.0.tar.gz](https://github.com/hercules-team/augeas/releases/download/release-1.15.0/augeas-1.15.0.tar.gz) | 2.5 MiB | `native/unknown` |
 | [augeas-1.15.0.tar.gz.sig](https://github.com/hercules-team/augeas/releases/download/release-1.15.0/augeas-1.15.0.tar.gz.sig) | 119 B | `other` |
+
+## Distribution status
+
+Reported by **217** distros on [repology.org](https://repology.org/project/augeas). **23** are ✅ on the latest upstream release, **181** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.15.0` | ✅ latest |
+| Debian 14 | `1.15.0` | ✅ latest |
+| Debian 13 | `1.14.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.14.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.14.1` | ⚠️ outdated |
+| Arch | `1.15.0` | ✅ latest |
+| Homebrew | `1.15.0` | ✅ latest |
+| Fedora rawhide | `1.15.0` | ✅ latest |
+| Nix unstable | `1.15.0` | ✅ latest |
+| Void | `1.12.0` | ⚠️ outdated |
+| Alpine edge | `1.15.0` | ✅ latest |
+| openSUSE Tumbleweed | `1.14.1` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -81,4 +100,4 @@ Install metadata for augeas lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T03:32:59Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T03:37:55Z._

@@ -58,12 +58,12 @@ x install augeas
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 2 | 6 | 0 | 0 | 9 |
-| last60d | 2026-08-23 | 1 | 6 | 7 | 0 | 0 | 21 |
-| 90d | 2026-07-24 | 1 | 9 | 12 | 0 | 0 | 22 |
-| last180d | 2026-04-25 | 1 | 10 | 14 | 0 | 0 | 23 |
-| 360d | 2025-10-27 | 1 | 13 | 20 | 2 | 5 | 29 |
-| last720d | 2024-11-01 | 1 | 20 | 23 | 4 | 12 | 31 |
+| 30d | 2026-09-23 | 1 | 2 | 6 | 0 | 0 | 9 |
+| last60d | 2026-08-24 | 1 | 6 | 7 | 0 | 0 | 21 |
+| 90d | 2026-07-25 | 1 | 9 | 12 | 0 | 0 | 22 |
+| last180d | 2026-04-26 | 1 | 10 | 14 | 0 | 0 | 23 |
+| 360d | 2025-10-28 | 1 | 13 | 20 | 2 | 5 | 29 |
+| last720d | 2024-11-02 | 1 | 20 | 23 | 4 | 12 | 31 |
 
 ## Release 资产
 
@@ -71,6 +71,25 @@ x install augeas
 |------|-----:|----------|
 | [augeas-1.15.0.tar.gz](https://github.com/hercules-team/augeas/releases/download/release-1.15.0/augeas-1.15.0.tar.gz) | 2.5 MiB | `native/unknown` |
 | [augeas-1.15.0.tar.gz.sig](https://github.com/hercules-team/augeas/releases/download/release-1.15.0/augeas-1.15.0.tar.gz.sig) | 119 B | `other` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/augeas) 上共有 **217** 个发行版报告此项目。**23** 个 ✅ 已是最新上游版本，**181** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.15.0` | ✅ latest |
+| Debian 14 | `1.15.0` | ✅ latest |
+| Debian 13 | `1.14.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.14.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.14.1` | ⚠️ outdated |
+| Arch | `1.15.0` | ✅ latest |
+| Homebrew | `1.15.0` | ✅ latest |
+| Fedora rawhide | `1.15.0` | ✅ latest |
+| Nix unstable | `1.15.0` | ✅ latest |
+| Void | `1.12.0` | ⚠️ outdated |
+| Alpine edge | `1.15.0` | ✅ latest |
+| openSUSE Tumbleweed | `1.14.1` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -81,4 +100,4 @@ augeas 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T03:33:00Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T03:37:56Z._
