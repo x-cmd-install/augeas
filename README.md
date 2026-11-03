@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 0 | 0 | 5 | 0 | 0 | 0 |
-| last60d | 2026-09-03 | 1 | 6 | 6 | 0 | 0 | 21 |
-| 90d | 2026-08-04 | 1 | 9 | 12 | 0 | 0 | 22 |
-| last180d | 2026-05-06 | 1 | 10 | 14 | 0 | 0 | 23 |
-| 360d | 2025-11-07 | 1 | 13 | 19 | 2 | 5 | 29 |
-| last720d | 2024-11-12 | 1 | 20 | 23 | 4 | 11 | 31 |
+| 30d | 2026-10-04 | 0 | 0 | 5 | 0 | 0 | 0 |
+| last60d | 2026-09-04 | 1 | 6 | 6 | 0 | 0 | 21 |
+| 90d | 2026-08-05 | 1 | 9 | 12 | 0 | 0 | 22 |
+| last180d | 2026-05-07 | 1 | 10 | 14 | 0 | 0 | 23 |
+| 360d | 2025-11-08 | 1 | 13 | 19 | 2 | 5 | 29 |
+| last720d | 2024-11-13 | 1 | 20 | 23 | 4 | 11 | 31 |
 
 ## Release assets
 
@@ -84,7 +84,7 @@ Reported by **217** distros on [repology.org](https://repology.org/project/augea
 | Ubuntu 26.04 LTS | `1.14.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.14.1` | ⚠️ outdated |
 | Arch | `1.15.0` | ✅ latest |
-| Homebrew | `1.15.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `1.15.0` | ✅ latest |
 | Nix unstable | `1.15.0` | ✅ latest |
 | Void | `1.12.0` | ⚠️ outdated |
@@ -100,4 +100,4 @@ Install metadata for augeas lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T04:44:43Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T05:35:27Z._
