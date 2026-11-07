@@ -58,12 +58,12 @@ x install augeas
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 0 | 5 | 0 | 0 | 0 |
-| last60d | 2026-09-07 | 1 | 6 | 6 | 0 | 0 | 21 |
-| 90d | 2026-08-08 | 1 | 9 | 12 | 0 | 0 | 22 |
-| last180d | 2026-05-10 | 1 | 10 | 14 | 0 | 0 | 23 |
-| 360d | 2025-11-11 | 1 | 13 | 19 | 2 | 5 | 29 |
-| last720d | 2024-11-16 | 1 | 20 | 23 | 4 | 11 | 31 |
+| 30d | 2026-10-08 | 0 | 0 | 5 | 0 | 0 | 0 |
+| last60d | 2026-09-08 | 1 | 6 | 6 | 0 | 0 | 21 |
+| 90d | 2026-08-09 | 1 | 9 | 12 | 0 | 0 | 22 |
+| last180d | 2026-05-11 | 1 | 10 | 14 | 0 | 0 | 23 |
+| 360d | 2025-11-12 | 1 | 13 | 19 | 2 | 5 | 29 |
+| last720d | 2024-11-17 | 1 | 20 | 23 | 4 | 11 | 31 |
 
 ## Release 资产
 
@@ -74,7 +74,7 @@ x install augeas
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/augeas) 上共有 **217** 个发行版报告此项目。**27** 个 ✅ 已是最新上游版本，**177** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/augeas) 上共有 **217** 个发行版报告此项目。**29** 个 ✅ 已是最新上游版本，**175** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -84,7 +84,7 @@ x install augeas
 | Ubuntu 26.04 LTS | `1.14.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.14.1` | ⚠️ outdated |
 | Arch | `1.15.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.15.0` | ✅ latest |
 | Fedora rawhide | `1.15.0` | ✅ latest |
 | Nix unstable | `1.15.0` | ✅ latest |
 | Void | `1.12.0` | ⚠️ outdated |
@@ -100,4 +100,4 @@ augeas 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261106.yml` · 2026-11-06T05:24:48Z._
+_数据快照: `data/card/261107.yml` · 2026-11-07T04:53:31Z._
