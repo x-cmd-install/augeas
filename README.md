@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last60d | 2026-09-14 | 1 | 5 | 6 | 0 | 0 | 20 |
-| 90d | 2026-08-15 | 1 | 9 | 12 | 0 | 0 | 21 |
-| last180d | 2026-05-17 | 1 | 10 | 14 | 0 | 0 | 23 |
-| 360d | 2025-11-18 | 1 | 13 | 19 | 2 | 5 | 29 |
-| last720d | 2024-11-23 | 1 | 20 | 23 | 4 | 11 | 31 |
+| 30d | 2026-10-15 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-09-15 | 1 | 5 | 6 | 0 | 0 | 20 |
+| 90d | 2026-08-16 | 1 | 6 | 8 | 0 | 0 | 21 |
+| last180d | 2026-05-18 | 1 | 10 | 14 | 0 | 0 | 23 |
+| 360d | 2025-11-19 | 1 | 13 | 18 | 2 | 3 | 29 |
+| last720d | 2024-11-24 | 1 | 20 | 23 | 4 | 11 | 31 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **216** distros on [repology.org](https://repology.org/project/augeas). **31** are ✅ on the latest upstream release, **172** are ⚠️ on an older version.
+Reported by **216** distros on [repology.org](https://repology.org/project/augeas). **32** are ✅ on the latest upstream release, **171** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -100,4 +100,4 @@ Install metadata for augeas lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T05:23:02Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T05:12:54Z._
