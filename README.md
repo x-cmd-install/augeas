@@ -14,11 +14,11 @@ x install augeas
 
 ## Code insight
 
-Total: **33,327** lines of code across **140** files in the top 5 languages.
+Total: **33,329** lines of code across **140** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 26,499 | 3,356 | 4,414 | 35 |
+| C | 26,501 | 3,356 | 4,414 | 35 |
 | Sh | 1,637 | 185 | 353 | 52 |
 | CHeader | 1,336 | 1,892 | 442 | 16 |
 | Bitbake | 914 | 5,705 | 686 | 34 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `release-1.15.0` (2026-09-29)
-- **Last commit**: 2026-11-18
+- **Last commit**: 2026-11-19
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 533 · **Forks**: 213 · **Open issues**: 379 · **Contributors**: 191
+- **Stars**: 533 · **Forks**: 213 · **Open issues**: 379 · **Contributors**: 195
 
 ## Totals (cumulative)
 
-- **Releases**: 13 · **Merged PRs**: 292 · **Open PRs**: 29 · **Closed issues**: 223 · **Open issues**: 156 · **Commits**: 3149
+- **Releases**: 13 · **Merged PRs**: 298 · **Open PRs**: 14 · **Closed issues**: 223 · **Open issues**: 156 · **Commits**: 3155
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 0 | 2 | 0 | 0 | 0 | 3 |
-| last60d | 2026-09-20 | 1 | 7 | 2 | 0 | 0 | 15 |
-| 90d | 2026-08-21 | 1 | 11 | 3 | 0 | 0 | 27 |
-| last180d | 2026-05-23 | 1 | 16 | 9 | 0 | 0 | 30 |
-| 360d | 2025-11-24 | 1 | 19 | 12 | 2 | 3 | 36 |
-| last720d | 2024-11-29 | 1 | 26 | 17 | 9 | 6 | 38 |
+| 30d | 2026-10-21 | 0 | 2 | 1 | 0 | 0 | 6 |
+| last60d | 2026-09-21 | 1 | 9 | 1 | 0 | 0 | 20 |
+| 90d | 2026-08-22 | 1 | 13 | 2 | 0 | 0 | 32 |
+| last180d | 2026-05-24 | 1 | 20 | 6 | 0 | 0 | 35 |
+| 360d | 2025-11-25 | 1 | 24 | 7 | 2 | 3 | 41 |
+| last720d | 2024-11-30 | 1 | 32 | 9 | 9 | 6 | 44 |
 
 ## Release assets
 
@@ -100,4 +100,4 @@ Install metadata for augeas lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T06:11:27Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T05:57:48Z._
