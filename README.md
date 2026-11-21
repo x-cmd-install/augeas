@@ -14,13 +14,13 @@ x install augeas
 
 ## Code insight
 
-Total: **33,329** lines of code across **140** files in the top 5 languages.
+Total: **33,725** lines of code across **140** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 26,501 | 3,356 | 4,414 | 35 |
-| Sh | 1,637 | 185 | 353 | 52 |
-| CHeader | 1,336 | 1,892 | 442 | 16 |
+| C | 26,893 | 3,454 | 4,468 | 35 |
+| Sh | 1,635 | 185 | 353 | 52 |
+| CHeader | 1,339 | 1,893 | 443 | 16 |
 | Bitbake | 914 | 5,705 | 686 | 34 |
 | Tex | 633 | 145 | 126 | 3 |
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `release-1.15.0` (2026-09-29)
-- **Last commit**: 2026-11-19
+- **Last commit**: 2026-11-20
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 533 · **Forks**: 213 · **Open issues**: 379 · **Contributors**: 195
+- **Stars**: 533 · **Forks**: 213 · **Open issues**: 380 · **Contributors**: 195
 
 ## Totals (cumulative)
 
-- **Releases**: 13 · **Merged PRs**: 298 · **Open PRs**: 14 · **Closed issues**: 223 · **Open issues**: 156 · **Commits**: 3155
+- **Releases**: 13 · **Merged PRs**: 305 · **Open PRs**: 12 · **Closed issues**: 225 · **Open issues**: 155 · **Commits**: 3181
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 2 | 1 | 0 | 0 | 6 |
-| last60d | 2026-09-21 | 1 | 9 | 1 | 0 | 0 | 20 |
-| 90d | 2026-08-22 | 1 | 13 | 2 | 0 | 0 | 32 |
-| last180d | 2026-05-24 | 1 | 20 | 6 | 0 | 0 | 35 |
-| 360d | 2025-11-25 | 1 | 24 | 7 | 2 | 3 | 41 |
-| last720d | 2024-11-30 | 1 | 32 | 9 | 9 | 6 | 44 |
+| 30d | 2026-10-22 | 0 | 8 | 0 | 0 | 1 | 23 |
+| last60d | 2026-09-22 | 1 | 15 | 0 | 0 | 1 | 37 |
+| 90d | 2026-08-23 | 1 | 19 | 1 | 0 | 1 | 58 |
+| last180d | 2026-05-25 | 1 | 27 | 4 | 0 | 1 | 61 |
+| 360d | 2025-11-26 | 1 | 31 | 5 | 2 | 4 | 67 |
+| last720d | 2024-12-01 | 1 | 39 | 7 | 10 | 6 | 70 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **215** distros on [repology.org](https://repology.org/project/augeas). **32** are ✅ on the latest upstream release, **170** are ⚠️ on an older version.
+Reported by **214** distros on [repology.org](https://repology.org/project/augeas). **32** are ✅ on the latest upstream release, **169** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -100,4 +100,4 @@ Install metadata for augeas lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T05:57:48Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T05:52:27Z._
