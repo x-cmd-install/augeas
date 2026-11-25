@@ -3,7 +3,7 @@
   srcname: augeas
   visiblename: augeas
   version: 1.12.0
-  origversion: 1.12.0-6.el8
+  origversion: 1.12.0-2.el8_1.1
   status: outdated
   summary: A library for changing configuration files
   licenses:
@@ -22,6 +22,54 @@
     - LGPLv2+
   categories:
     - System Environment/Libraries
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: augeas
+  visiblename: augeas
+  version: 1.12.0
+  origversion: 1.12.0-6.el8
+  status: outdated
+  summary: A library for changing configuration files
+  licenses:
+    - LGPLv2+
+  categories:
+    - System Environment/Libraries
+- repo: kali_rolling
+  subrepo: main
+  srcname: augeas
+  binnames:
+    - augeas-tools
+    - libaugeas-dev
+    - libaugeas0
+    - augeas-lenses
+    - augeas-doc
+  visiblename: augeas
+  version: 1.15.0
+  origversion: 1.15.0-1
+  status: newest
+  maintainers:
+    - bengen@debian.org
+  categories:
+    - libs
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: augeas
+  binnames:
+    - augeas
+    - augeas-devel
+    - augeas-libs
+    - augeas-static
+    - augeas-debuginfo
+    - augeas-debugsource
+  visiblename: augeas
+  version: 1.12.1
+  origversion: 1.12.1-0.2.git18558bb.el9
+  status: legacy
+  summary: A library for changing configuration files
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
 - repo: almalinux_8
   subrepo: BaseOS
   srcname: augeas
@@ -101,6 +149,13 @@
     - ncopa@alpinelinux.org
   licenses:
     - LGPL-2.0-or-later
+- repo: aix_osp
+  srcname: augeas
+  visiblename: augeas
+  version: 1.1.0
+  origversion: 1.1.0-1
+  status: legacy
+  vulnerable: true
 - repo: alpine_3_17
   subrepo: main
   srcname: augeas
@@ -127,6 +182,25 @@
     - ncopa@alpinelinux.org
   licenses:
     - LGPL-2.1-or-later
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: augeas
+  binnames:
+    - augeas
+    - augeas-devel
+    - augeas-libs
+    - augeas-static
+    - augeas-debuginfo
+    - augeas-debugsource
+  visiblename: augeas
+  version: 1.13.0
+  origversion: 1.13.0-1.el9
+  status: outdated
+  summary: A library for changing configuration files
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
 - repo: alpine_3_18
   subrepo: main
   srcname: augeas
@@ -270,6 +344,25 @@
     - ncopa@alpinelinux.org
   licenses:
     - LGPL-2.1-or-later
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: augeas
+  binnames:
+    - augeas
+    - augeas-devel
+    - augeas-libs
+    - augeas-static
+    - augeas-debuginfo
+    - augeas-debugsource
+  visiblename: augeas
+  version: 1.13.0
+  origversion: 1.13.0-2.el9
+  status: outdated
+  summary: A library for changing configuration files
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
 - repo: alpine_3_20
   subrepo: main
   srcname: augeas
@@ -1051,75 +1144,6 @@
     - bengen@debian.org
   categories:
     - libs
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: augeas
-  visiblename: augeas
-  version: 1.12.0
-  origversion: 1.12.0-2.el8_1.1
-  status: outdated
-  summary: A library for changing configuration files
-  licenses:
-    - LGPLv2+
-  categories:
-    - System Environment/Libraries
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: augeas
-  binnames:
-    - augeas
-    - augeas-devel
-    - augeas-libs
-    - augeas-static
-    - augeas-debuginfo
-    - augeas-debugsource
-  visiblename: augeas
-  version: 1.12.1
-  origversion: 1.12.1-0.2.git18558bb.el9
-  status: legacy
-  summary: A library for changing configuration files
-  licenses:
-    - LGPLv2+
-  categories:
-    - Unspecified
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: augeas
-  binnames:
-    - augeas
-    - augeas-devel
-    - augeas-libs
-    - augeas-static
-    - augeas-debuginfo
-    - augeas-debugsource
-  visiblename: augeas
-  version: 1.13.0
-  origversion: 1.13.0-1.el9
-  status: outdated
-  summary: A library for changing configuration files
-  licenses:
-    - LGPLv2+
-  categories:
-    - Unspecified
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: augeas
-  binnames:
-    - augeas
-    - augeas-devel
-    - augeas-libs
-    - augeas-static
-    - augeas-debuginfo
-    - augeas-debugsource
-  visiblename: augeas
-  version: 1.13.0
-  origversion: 1.13.0-2.el9
-  status: outdated
-  summary: A library for changing configuration files
-  licenses:
-    - LGPLv2+
-  categories:
-    - Unspecified
 - repo: eurolinux_9
   subrepo: appstream
   srcname: augeas
@@ -1228,6 +1252,25 @@
   categories:
     - Unspecified
 - repo: fedora_40
+  subrepo: release
+  srcname: augeas
+  binnames:
+    - augeas
+    - augeas-devel
+    - augeas-libs
+    - augeas-static
+    - augeas-debuginfo
+    - augeas-debugsource
+  visiblename: augeas
+  version: 1.13.0
+  origversion: 1.13.0-7.fc40
+  status: legacy
+  summary: A library for changing configuration files
+  licenses:
+    - LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND (GPL-3.0-or-later WITH Bison-exception-2.2) AND Kazlib AND GPL-2.0-or-later AND BSD-2-Clause AND LicenseRef-Fedora-Public-Domain
+  categories:
+    - Unspecified
+- repo: fedora_40
   subrepo: updates
   srcname: augeas
   binnames:
@@ -1242,25 +1285,6 @@
   version: 1.14.2
   origversion: 1.14.2-0.4.20250324git4dffa3d.fc40
   status: outdated
-  summary: A library for changing configuration files
-  licenses:
-    - LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND (GPL-3.0-or-later WITH Bison-exception-2.2) AND Kazlib AND GPL-2.0-or-later AND BSD-2-Clause AND LicenseRef-Fedora-Public-Domain
-  categories:
-    - Unspecified
-- repo: fedora_40
-  subrepo: release
-  srcname: augeas
-  binnames:
-    - augeas
-    - augeas-devel
-    - augeas-libs
-    - augeas-static
-    - augeas-debuginfo
-    - augeas-debugsource
-  visiblename: augeas
-  version: 1.13.0
-  origversion: 1.13.0-7.fc40
-  status: legacy
   summary: A library for changing configuration files
   licenses:
     - LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND (GPL-3.0-or-later WITH Bison-exception-2.2) AND Kazlib AND GPL-2.0-or-later AND BSD-2-Clause AND LicenseRef-Fedora-Public-Domain
@@ -1320,6 +1344,13 @@
     - LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND (GPL-3.0-or-later WITH Bison-exception-2.2) AND Kazlib AND GPL-2.0-or-later AND BSD-2-Clause AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
+- repo: homebrew
+  srcname: augeas
+  visiblename: augeas
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Configuration editing tool and API
 - repo: fedora_43
   subrepo: release
   srcname: augeas
@@ -1332,24 +1363,6 @@
   visiblename: augeas
   version: 1.14.2
   origversion: 1.14.2-0.6.20250415gitaf2aa88.fc43
-  status: outdated
-  summary: A library for changing configuration files
-  licenses:
-    - LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND (GPL-3.0-or-later WITH Bison-exception-2.2) AND Kazlib AND GPL-2.0-or-later AND BSD-2-Clause AND LicenseRef-Fedora-Public-Domain
-  categories:
-    - Unspecified
-- repo: fedora_44
-  subrepo: release
-  srcname: augeas
-  binnames:
-    - augeas
-    - augeas-devel
-    - augeas-libs
-    - augeas-static
-    - augeas-bash-completion
-  visiblename: augeas
-  version: 1.14.2
-  origversion: 1.14.2-0.9.20260120gitf4135e3.fc44
   status: outdated
   summary: A library for changing configuration files
   licenses:
@@ -1374,21 +1387,22 @@
     - LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND (GPL-3.0-or-later WITH Bison-exception-2.2) AND Kazlib AND GPL-2.0-or-later AND BSD-2-Clause AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
-- repo: openeuler_22_03_lts_sp3
+- repo: fedora_44
+  subrepo: release
   srcname: augeas
   binnames:
     - augeas
     - augeas-devel
-    - augeas-help
-    - augeas-debuginfo
-    - augeas-debugsource
+    - augeas-libs
+    - augeas-static
+    - augeas-bash-completion
   visiblename: augeas
-  version: 1.13.0
-  origversion: 1.13.0-5.oe2203sp3
+  version: 1.14.2
+  origversion: 1.14.2-0.9.20260120gitf4135e3.fc44
   status: outdated
-  summary: Augeas is a configuration editing tool for changing configuration files
+  summary: A library for changing configuration files
   licenses:
-    - LGPLv2+
+    - LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND (GPL-3.0-or-later WITH Bison-exception-2.2) AND Kazlib AND GPL-2.0-or-later AND BSD-2-Clause AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
 - repo: fedora_45
@@ -1432,7 +1446,7 @@
   binname: augeas
   visiblename: textproc/augeas
   version: 1.14.0
-  origversion: 1.14.0_4
+  origversion: 1.14.0_5
   status: outdated
   summary: Configuration editing tool
   maintainers:
@@ -1455,30 +1469,6 @@
   origversion: null
   status: newest
   summary: Configuration editing tool and API
-- repo: homebrew
-  srcname: augeas
-  visiblename: augeas
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Configuration editing tool and API
-- repo: kali_rolling
-  subrepo: main
-  srcname: augeas
-  binnames:
-    - augeas-tools
-    - libaugeas-dev
-    - libaugeas0
-    - augeas-lenses
-    - augeas-doc
-  visiblename: augeas
-  version: 1.15.0
-  origversion: 1.15.0-1
-  status: newest
-  maintainers:
-    - bengen@debian.org
-  categories:
-    - libs
 - repo: macports
   srcname: sysutils/augeas
   binname: augeas
@@ -1570,6 +1560,23 @@
   visiblename: augeas
   version: 1.13.0
   origversion: 1.13.0-5.oe2203sp1
+  status: outdated
+  summary: Augeas is a configuration editing tool for changing configuration files
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
+- repo: openeuler_22_03_lts_sp3
+  srcname: augeas
+  binnames:
+    - augeas
+    - augeas-devel
+    - augeas-help
+    - augeas-debuginfo
+    - augeas-debugsource
+  visiblename: augeas
+  version: 1.13.0
+  origversion: 1.13.0-5.oe2203sp3
   status: outdated
   summary: Augeas is a configuration editing tool for changing configuration files
   licenses:
@@ -1853,24 +1860,6 @@
     - bsiegert@netbsd.org
   categories:
     - sysutils
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: augeas
-  binnames:
-    - augeas-doc
-    - augeas-lenses
-    - augeas-tools
-    - libaugeas-dev
-    - libaugeas0
-  visiblename: augeas
-  version: 1.11.0
-  origversion: 1.11.0-3
-  status: outdated
-  maintainers:
-    - bengen@debian.org
-    - micah@debian.org
-  categories:
-    - doc
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: augeas
@@ -2005,24 +1994,6 @@
   categories:
     - System Environment/Libraries
 - repo: ubuntu_18_04
-  subrepo: bionic-updates/main
-  srcname: augeas
-  binnames:
-    - augeas-tools
-    - libaugeas-dev
-    - libaugeas0
-    - augeas-lenses
-    - augeas-doc
-  visiblename: augeas
-  version: 1.10.1
-  origversion: 1.10.1-2ubuntu1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - micah@debian.org
-  categories:
-    - libs
-- repo: ubuntu_18_04
   subrepo: bionic/main
   srcname: augeas
   binnames:
@@ -2037,6 +2008,24 @@
   status: outdated
   maintainers:
     - bengen@debian.org
+    - micah@debian.org
+  categories:
+    - libs
+- repo: ubuntu_18_04
+  subrepo: bionic-updates/main
+  srcname: augeas
+  binnames:
+    - augeas-tools
+    - libaugeas-dev
+    - libaugeas0
+    - augeas-lenses
+    - augeas-doc
+  visiblename: augeas
+  version: 1.10.1
+  origversion: 1.10.1-2ubuntu1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - micah@debian.org
   categories:
     - libs
@@ -2143,40 +2132,14 @@
   summary: Finite Automata (development)
   categories:
     - Libs
-- repo: alpine_3_24
-  subrepo: main
+- repo: gnuguix
   srcname: augeas
-  binname: augeas-doc
-  visiblename: augeas-doc
-  version: 1.14.1
-  origversion: 1.14.1-r0
-  status: outdated
-  summary: A configuration editing tool (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-  vulnerable: true
-- repo: alpine_3_24
-  subrepo: main
-  srcname: augeas
-  binname: augeas-libs
-  visiblename: augeas-libs
-  version: 1.14.1
-  origversion: 1.14.1-r0
-  status: outdated
-  summary: Libraries for augeas
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-  vulnerable: true
-- repo: aix_osp
-  srcname: augeas
+  binname: augeas
   visiblename: augeas
-  version: 1.1.0
-  origversion: 1.1.0-1
-  status: legacy
+  version: 1.14.1
+  origversion: null
+  status: outdated
+  summary: Edit configuration files programmatically
   vulnerable: true
 - repo: aix_osp
   srcname: augeas
@@ -2248,6 +2211,19 @@
   licenses:
     - LGPL-2.1-or-later
   vulnerable: true
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/augeas
+  binname: augeas
+  visiblename: augeas
+  version: 1.14.1
+  origversion: 1.14.1-r1
+  status: outdated
+  maintainers:
+    - jan.pavlinec1@gmail.com
+  categories:
+    - utils
+  vulnerable: true
 - repo: alpine_3_24
   subrepo: main
   srcname: augeas
@@ -2257,6 +2233,34 @@
   origversion: 1.14.1-r0
   status: outdated
   summary: A configuration editing tool (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+  vulnerable: true
+- repo: alpine_3_24
+  subrepo: main
+  srcname: augeas
+  binname: augeas-doc
+  visiblename: augeas-doc
+  version: 1.14.1
+  origversion: 1.14.1-r0
+  status: outdated
+  summary: A configuration editing tool (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+  vulnerable: true
+- repo: alpine_3_24
+  subrepo: main
+  srcname: augeas
+  binname: augeas-libs
+  visiblename: augeas-libs
+  version: 1.14.1
+  origversion: 1.14.1-r0
+  status: outdated
+  summary: Libraries for augeas
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
@@ -2489,6 +2493,18 @@
   categories:
     - libs
   vulnerable: true
+- repo: nix_stable_24_11
+  srcname: augeas
+  visiblename: augeas
+  version: 1.14.1
+  origversion: null
+  status: outdated
+  summary: Configuration editing tool
+  maintainers:
+    - jaka@x-truder.net
+  licenses:
+    - LGPL-2.1-only
+  vulnerable: true
 - repo: deepin_25
   subrepo: main
   srcname: augeas
@@ -2505,6 +2521,18 @@
   maintainers:
     - bengen@debian.org
   vulnerable: true
+- repo: nix_stable_25_05
+  srcname: augeas
+  visiblename: augeas
+  version: 1.14.1
+  origversion: null
+  status: outdated
+  summary: Configuration editing tool
+  maintainers:
+    - jaka@x-truder.net
+  licenses:
+    - LGPL-2.1-only
+  vulnerable: true
 - repo: gentoo
   srcname: app-admin/augeas
   visiblename: app-admin/augeas
@@ -2518,15 +2546,6 @@
     - LGPL-2.1
   categories:
     - app-admin
-  vulnerable: true
-- repo: gnuguix
-  srcname: augeas
-  binname: augeas
-  visiblename: augeas
-  version: 1.14.1
-  origversion: null
-  status: outdated
-  summary: Edit configuration files programmatically
   vulnerable: true
 - repo: liguros_stable
   srcname: app-admin/augeas
@@ -2595,30 +2614,6 @@
     - System/Libraries
   vulnerable: true
 - repo: nix_stable_24_05
-  srcname: augeas
-  visiblename: augeas
-  version: 1.14.1
-  origversion: null
-  status: outdated
-  summary: Configuration editing tool
-  maintainers:
-    - jaka@x-truder.net
-  licenses:
-    - LGPL-2.1-only
-  vulnerable: true
-- repo: nix_stable_24_11
-  srcname: augeas
-  visiblename: augeas
-  version: 1.14.1
-  origversion: null
-  status: outdated
-  summary: Configuration editing tool
-  maintainers:
-    - jaka@x-truder.net
-  licenses:
-    - LGPL-2.1-only
-  vulnerable: true
-- repo: nix_stable_25_05
   srcname: augeas
   visiblename: augeas
   version: 1.14.1
@@ -2874,21 +2869,8 @@
   categories:
     - utils
   vulnerable: true
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/augeas
-  binname: augeas
-  visiblename: augeas
-  version: 1.14.1
-  origversion: 1.14.1-r1
-  status: outdated
-  maintainers:
-    - jan.pavlinec1@gmail.com
-  categories:
-    - utils
-  vulnerable: true
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: augeas
   binnames:
     - augeas-tools
@@ -2906,7 +2888,7 @@
     - libs
   vulnerable: true
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: augeas
   binnames:
     - augeas-tools
@@ -3035,27 +3017,6 @@
     - System/Libraries
   vulnerable: true
 - repo: ubuntu_14_04
-  subrepo: trusty/main
-  srcname: augeas
-  binnames:
-    - augeas-tools
-    - libaugeas-dev
-    - libaugeas0
-    - augeas-dbg
-    - augeas-lenses
-    - augeas-doc
-  visiblename: augeas
-  version: 1.2.0
-  origversion: 1.2.0-0ubuntu1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - freee@debian.org
-    - micah@debian.org
-  categories:
-    - libs
-  vulnerable: true
-- repo: ubuntu_14_04
   subrepo: trusty-updates/main
   srcname: augeas
   binnames:
@@ -3068,6 +3029,27 @@
   visiblename: augeas
   version: 1.2.0
   origversion: 1.2.0-0ubuntu1.3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - freee@debian.org
+    - micah@debian.org
+  categories:
+    - libs
+  vulnerable: true
+- repo: ubuntu_14_04
+  subrepo: trusty/main
+  srcname: augeas
+  binnames:
+    - augeas-tools
+    - libaugeas-dev
+    - libaugeas0
+    - augeas-dbg
+    - augeas-lenses
+    - augeas-doc
+  visiblename: augeas
+  version: 1.2.0
+  origversion: 1.2.0-0ubuntu1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
